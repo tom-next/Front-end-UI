@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.lazy-background{
+  margin: 1024px auto 128px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.one{
+  padding-top: 28.0519480519%;
+  /* background-image: url("https://res.cloudinary.com/drp9iwjqz/image/upload/e_blur:2000,f_auto,q_auto/v1508291830/jeremywagner.me/using-webp-images/tacos-1x.jpg"); */
+}
+
+.one.visible{
+    animation-name: fade-in;
+    animation-duration: 2s;
+  background-image: url("https://res.cloudinary.com/drp9iwjqz/image/upload/f_auto,q_auto/v1508210556/jeremywagner.me/using-webp-images/tacos-2x.jpg");
+}
+
+.two{
+  padding-top: 55%;
+  /* background-image: url("https://res.cloudinary.com/drp9iwjqz/image/upload/e_blur:2000,f_auto,q_auto/v1508210556/jeremywagner.me/using-webp-images/modem-2x.png"); */
+}
+
+.two.visible{
+    animation-name: fade-in;
+    animation-duration: 2s;
+  background-image: url("https://res.cloudinary.com/drp9iwjqz/image/upload/f_auto,q_auto/v1508210556/jeremywagner.me/using-webp-images/modem-2x.png");
+}
+
+.three{
+  padding-top: 66.625%;
+  /* background-image: url("https://res.cloudinary.com/drp9iwjqz/image/upload/e_blur:2000,f_auto,q_auto/v1509298941/jeremywagner.me/about/st-paul-1x.jpg"); */
+}
+
+.three.visible{
+    animation-name: fade-in;
+    animation-duration: 2s;
+  background-image: url("https://res.cloudinary.com/drp9iwjqz/image/upload/f_auto,q_auto/v1509298941/jeremywagner.me/about/st-paul-2x.jpg");
+}
+
+@keyframes fade-in {
+  from {opacity: 0.2}
+}
