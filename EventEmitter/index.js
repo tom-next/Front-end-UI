@@ -23,6 +23,8 @@ class Event {
             callbacks.forEach((k) => {
               k.apply(this, rest)
             })
+        }else {
+            // 没有找到
         }
         return this
     }
